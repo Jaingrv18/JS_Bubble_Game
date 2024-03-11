@@ -1,4 +1,4 @@
-var timer = 10;
+var timer = 30;
 var score = 0;
 var hitrn = 0;
 //Event BUbbling
