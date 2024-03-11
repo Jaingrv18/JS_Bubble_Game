@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#ptop{
+    background-color: rgb(128, 164, 128);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20%;
+}
+.elem{
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 1px;
+}
+.box{
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    color: #2f352f;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.elem h2{
+    font-weight: 600;
+}
+#pbtm{
+    width: 100%;
+    height: calc(100% - 60px);
+  padding: 20px 25px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /*kya aap elements ko aagli line par laa skate ho, by default noWrap hota hai*/
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble{
+    width: 40px;
+    height: 40px;
+    background-color: #828e82;
+    color: #fff ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+}
+.bubble:hover{
+    background-color: #2f352f;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
